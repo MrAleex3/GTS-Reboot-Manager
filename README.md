@@ -1,37 +1,31 @@
-# 📦 GTS-Reboot-Manager
+# GTS Reboot Manager
 
-Herramienta para reiniciar remotamente dispositivos GTS mediante red LAN, con soporte para programación horaria, reintentos automáticos en caso de estar ocupado el GTS y registro de logs.
+Herramienta para reiniciar remotamente dispositivos GTS mediante red LAN, con soporte para programación horaria, reintentos automáticos cuando el equipo está ocupado y registro de eventos en un log.
 
-## 🚀 Funcionalidades
+![Interfaz](https://github.com/user-attachments/assets/8e715112-8c88-4897-a43e-02b844e7b9b1)
 
-- ✅ Interfaz gráfica
-- 🔁 Reinicio inmediato de múltiples dispositivos
-- 🕒 Reinicio automático programado a una hora definida
-- 🧠 Detección de host ocupado con reintentos automáticos
-- 📁 Registro detallado en archivo `reboot_log.txt`
-- 📋 Carga dinámica de IPs desde archivo `ips.txt`
-- 📁 Contadores visuales para ver GTS reiniciados y pendientes
-- 📁 Barra de progreso para ver el progreso en tiempo real
+![Contadores y barra de progreso](https://github.com/user-attachments/assets/63b3aba8-80c0-45da-9a49-fbe09765efec)
 
-## 📷 Interfaz
+## Características
 
-  <img width="1187" height="510" alt="image" src="https://github.com/user-attachments/assets/8e715112-8c88-4897-a43e-02b844e7b9b1" />
+- Interfaz gráfica.
+- Reinicio inmediato de varios dispositivos.
+- Reinicio automático programado a una hora definida.
+- Detección de host ocupado con reintentos automáticos.
+- Carga dinámica de las IP desde el archivo `ips.txt`.
+- Contadores de GTS reiniciados, pendientes y con error.
+- Barra de progreso general en tiempo real.
+- Registro detallado en el archivo `reboot_log.txt`.
 
-  ## 🚀 Funcionalidades extra
-  -  Se agregan contadores de GTS reiniciados, Pendientes y con error. Tambien se agrega una barra del progreso general
+## Requisitos
 
-  <img width="1024" height="633" alt="image" src="https://github.com/user-attachments/assets/63b3aba8-80c0-45da-9a49-fbe09765efec" />
+- Python 3.7 o superior.
 
+## Licencia
 
-## 🖥️ Requisitos
+Este proyecto está bajo la Licencia MIT.
 
-- Python 3.7 o superior
+## Autor
 
-## 📝 Licencia
-
-Este proyecto está bajo la [Licencia MIT](LICENSE).
-
-## 🙋 Autor
-
-**Jose Alejandro**  
-Foxconn México · Proyecto personal para portafolio
+Alejandro Espinoza
+Foxconn México
