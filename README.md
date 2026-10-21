@@ -18,6 +18,11 @@ Herramienta para reiniciar remotamente dispositivos GTS mediante red LAN, con so
 - Acceso de red a los dispositivos GTS.
 - El archivo `ips.txt` con las direcciones de los equipos.
 
+**Archivos de trabajo**
+
+- `ips.txt`: lista de direcciones IP de los dispositivos.
+- `reboot_log.txt`: registro de cada reinicio y de sus reintentos.
+
 ## Características
 
 - Interfaz gráfica.
